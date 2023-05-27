@@ -1,0 +1,13 @@
+.updated-nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: bisque;
+    height: 4rem;
+    padding-top: 1rem;
+    border: 3px solid black;
+}
+
+li {
+    list-style: none;
+    padding-left: 2rem;
+}

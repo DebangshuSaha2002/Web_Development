@@ -1,0 +1,9 @@
+.update-nav {
+    display: flex;
+    margin-top: auto;
+}
+
+.col-md-6 {
+    background-color: aquamarine;
+    border: 1px solid black;
+}

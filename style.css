@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+}
+
+.custom-ol {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding-left: 2rem;
+}
+
+.custom-nav {
+    background-color: cornsilk;
+    padding: 1rem;
+}
