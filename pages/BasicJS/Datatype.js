@@ -32,5 +32,6 @@
 // // console.log(typeof str);
 // console.log(value1);
 
+//type of never gives NULL s type of-> this is a conn in js
 const arr = [1, 2, 3, 4, 5];
 console.log(arr);

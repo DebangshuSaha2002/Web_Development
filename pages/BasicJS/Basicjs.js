@@ -20,7 +20,7 @@
 
 // //Next way to declare variable
 // //We cannot re-declare a variable
-// //We cannot re-assign a value to that variable
+// //We can re-assign a value to that variable
 // //We cannot call that variable before initialisation
 
 // const myPrefix = "Mr";
@@ -102,3 +102,29 @@
 // const num1 = 100;
 // const num2 = '200';
 // num1 > 250 ? console.log("true true") : num2 == '200' ? console.log("true") : console.log("false false");
+
+function calc(weight, height) {
+    // var weight = prompt("Enter your weight in KG");
+    // let height = prompt("Enter your height in metres");
+
+    weight = parseFloat(weight);
+    height = parseFloat(height);
+
+    let BMI = weight / (height * height);
+    console.log("Your BMI is: " + BMI.toFixed(4));
+
+    var ans = "";
+    if (BMI < 18.5) {
+        ans = "Underweight";
+    } else if (BMI >= 18.5 && BMI <= 24.9) {
+        ans = "Healthy Weight";
+    } else if (BMI >= 25 && BMI <= 29.9) {
+        ans = "Overweight";
+    } else {
+        ans = "Obesity";
+    }
+
+    console.log(ans);
+}
+
+calc(85, 1.86);
